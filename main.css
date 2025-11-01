@@ -9,7 +9,7 @@
 body {
 	font-size: 16px;
 	font-family: 'Sanchez', serif;
-	margin: 1em;
+	float: left; width: 60%
 }
 
 h1, h2, h3 {
@@ -17,7 +17,7 @@ h1, h2, h3 {
 }
 
 aside {
-	
+ 	position: fixed; left: 70%; width: 20%; 
 }
 
 footer {
@@ -25,7 +25,7 @@ footer {
 }
 
 header {
-
+	
 }
 
 img {
@@ -33,17 +33,17 @@ img {
 }
 
 main {
-	
+	float: left; width: 80%;
 }
 
 nav {
-
+	float: left;   width: 20%
 }
 
 #copyright {
-	font-size: 80%;
+	font-size: 90%; 
 }
 
 #main-container {
-
+	position: static;
 }
